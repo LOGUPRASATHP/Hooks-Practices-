@@ -13,7 +13,8 @@ const FocusInput = () => {
     }
     return (
         <div>
-            <input type='text' placeholder='Enter your text' ref={focusInputText} value={text} onChange={(e) => setText(e.target.value)} />
+            <h2>1.FocusInput</h2>
+            <input type='text' placeholder='Enter your text' ref={focusInputText} value={text} onChange={(e) => setText(e.target.value)} /> <br />
             <button type='submit' onClick={inputText}>Submit</button>
             <button onClick={clearText}>Clear</button>
         </div>

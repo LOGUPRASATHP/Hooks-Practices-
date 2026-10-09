@@ -8,8 +8,9 @@ const PreviousValue = () => {
     }, [counter])
     return (
         <div>
-            <h2>Current : {counter}</h2>
-            <h2>Previous : {prevCounter.current}</h2>
+            <h2>2.PreviousValue</h2>
+            <h4>Current : {counter}</h4>
+            <h4>Previous : {prevCounter.current}</h4>
             <button onClick={() => setCounter(counter + 1)}>Increment</button>
             <button onClick={() => setCounter(counter - 1)}>Decrement</button>
         </div>

@@ -14,7 +14,8 @@ function WindowSize() {
 
   return (
     <div> 
-      <h2>Browser Window Size</h2> 
+      <h2>4.WindowSize</h2>
+      <h4>Browser Window Size</h4> 
       <p>Current width: {width}px</p> 
     </div>
   );

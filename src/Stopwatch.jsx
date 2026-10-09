@@ -20,7 +20,8 @@ const Stopwatch = () => {
 
     return (
         <div>
-            <h2>Seconds : {seconds}</h2>
+            <h2>3.Stopwatch</h2>
+            <h4>Seconds : {seconds}</h4>
             <button onClick={start}>Start</button>
             <button onClick={pause}>Pause</button>
             <button onClick={reset}>Reset</button>
